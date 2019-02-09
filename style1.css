@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+#bg{
+    height:560px;
+    width:1180px;
+    background-color:powderblue;
+    margin:30px auto;
+}
+#left_back{
+    height:440px;
+    width:503px;
+    margin-left:85px;
+    margin-top:60px;
+    display:inline-block;
+    background-color:red;
+    border-radius:15px;
+    float:left;
+}
+#left{
+    height:400px;
+    width:490px;
+    background-color:lightyellow;
+    border-right:0.5px solid black;
+    border-radius:15px;
+    float:left;
+    margin-top:18px;
+    margin-left:13px;
+    display:inline-block;
+}
+#right_back{
+    height:445px;
+    width:510px;
+    margin-top:57px;
+    display:inline-block;
+    background-color:red;
+    border-radius:18px;
+    float:left;
+}
+#right{
+    height:400px;
+    width:490px;
+    background-color:lightyellow;
+    border-left:0.5px solid black;
+    border-radius:15px;
+    float:left;
+    margin-top:20px;
+    display:inline-block;
+}
+#left_top{
+     height:46px;
+     width:272px;
+     /*border:1px solid black;*/
+     font-size: 34px;
+     margin:40px auto;
+     line-height:44px;
+ }
+#right_top{
+    height:40px;
+    width:192px;
+    /*border:1px solid black;*/
+    font-size:32px;
+    margin:40px auto 30px;
+    line-height:40px;
+}
+#left_ipt1,#left_ipt2{
+    height:30px;
+    width:310px;
+    /*border:1px solid black;*/
+    font-size:24px;
+    margin:50px auto;
+    line-height:30px;
+}
+#ipt1,#ipt2{
+    width:80px;
+    height:22px;
+    margin-bottom:2px;
+    vertical-align:bottom;
+}
+
+#button1,#button2{
+    height:42px;
+    width:90px;
+    /*border:1px solid #bbb;*/
+    font-size:22px;
+    line-height:40px;
+    text-align: center;
+    display:inline-block;
+    border-radius:5px;
+    cursor:pointer;
+    background-color:#ccc;
+            /*#46a0f0*/
+    color:#fff;
+}
+#button1{
+    margin-left:140px;
+}
+#button2{
+    margin-left:30px;
+}
+#right_result1,#right_result2,#right_result3,#right_result4,#right_result5{
+    height:30px;
+    width:260px;
+    /*border:1px solid black;*/
+    font-size:22px;
+    margin:20px auto;
+    line-height:30px;
+}
